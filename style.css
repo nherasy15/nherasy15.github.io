@@ -1,0 +1,140 @@
+img {
+	width: 190px;
+	display: inline-block;
+	margin: 10px;
+}
+body {
+	background-image: 0 auto; 
+	background-image: url("background.jpg");
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+#about-col-1{
+	display: inline-block;
+	width: 450px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+#about-col-2{
+	display: inline-block;
+	width: 450px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+#about-row-1 {
+	display: inline-block;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #62ED92;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#about-row-2 {
+	display: inline-block;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #8DF2B0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+ 
+}
+#about-row-2-col-1 {
+	display: inline-block;
+}
+#about-row-2-col-2 {
+	display: inline-block;
+}
+#about-row-3 {
+	display: inline-block;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #D785D0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#about-row-4 {
+	display: inline-block;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #4da6ff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+/*This is for the Hobby page */
+#hobby-col-1 {
+	display: inline-block;
+	width: 310px;
+	margin-left: 10 auto;
+	margin-right: 10 auto;
+	background-color: #92F4EA;
+	vertical-align: top;
+	padding: 10px;
+} 
+#hobby-col-2 {
+	display: inline-block;
+	width: 310px;
+	background-color: #BF96F5;
+	vertical-align: top;
+	margin-left: 10 auto;
+	margin-right: 10 auto;
+	padding: 10px;
+}
+#hobby-col-3 {
+	display: inline-block;
+	vertical-align: top;
+	width: 310px;
+	background-color: #85A3D7;
+	margin-left: 10 auto;
+	margin-right: 10 auto;
+	padding: 10px;
+	
+}
+#row-1 {
+	width: 990px;
+	margin: 20px 20px 20px 20px;
+}
+#row-2 {
+	width: 990px;
+	margin: 20px 20px 20px 20px;
+}
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+  background-color: #69125d;
+  color: black;
+}
+#call-to-action {
+	width: 300px;
+	margin: 0 auto;
+	
+}
+footer div{
+	width: 300px;
+	margin: 0 auto;
+}
+footer img {
+	padding: 10px 10px;
+	width: 50px;
+	list-style-type: none;
+}
