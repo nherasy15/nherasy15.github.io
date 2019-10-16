@@ -3,6 +3,12 @@ img {
 	display: inline-block;
 	margin: 10px;
 }
+. big-pic {
+	width: 300px;
+}
+. small-pic {
+	width: 100px;
+}
 body {
 	background-image: 0 auto; 
 	background-image: url("background.jpg");
@@ -44,7 +50,7 @@ header ul {
 	display: inline-block;
 	width: 450px;
 	margin: 0 auto;
-	background-color: #8DF2B0;
+	background-color: #78E5B5;
 	margin-top: 20px;
 	margin-bottom: 20px;
  
@@ -62,6 +68,13 @@ header ul {
 	background-color: #D785D0;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	
+}
+.col-1{
+	vertical-align: top;
+}
+.col-2 {
+	vertical-align: top;
 }
 #about-row-4 {
 	display: inline-block;
@@ -111,12 +124,14 @@ header li a {
 	padding: 10px;
 	
 }
-#row-1 {
-	width: 990px;
+#col-1 {
+	display: inline-block;
+	width: 450px;
 	margin: 20px 20px 20px 20px;
 }
-#row-2 {
-	width: 990px;
+#col-2 {
+	display: inline-block;
+	width: 450px;
 	margin: 20px 20px 20px 20px;
 }
 /* Change the link color to #111 (black) on hover */
