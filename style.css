@@ -13,6 +13,17 @@ body {
 	background-image: 0 auto; 
 	background-image: url("background.jpg");
 }
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+.list-inline {
+	 margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
 #container{
 	width: 1000px;
 	margin: 0 auto;
